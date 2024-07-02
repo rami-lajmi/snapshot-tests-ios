@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0997262C34B24E0058C25A /* DeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0997252C34B24E0058C25A /* DeviceListView.swift */; };
+		BF0997282C34B9FC0058C25A /* DeviceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0997272C34B9FC0058C25A /* DeviceCard.swift */; };
+		BF09972A2C34BA1F0058C25A /* SimpleUserButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0997292C34BA1F0058C25A /* SimpleUserButton.swift */; };
+		BF09972D2C34BA620058C25A /* DeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF09972C2C34BA620058C25A /* DeviceData.swift */; };
+		BF09972F2C34BA890058C25A /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF09972E2C34BA890058C25A /* UserInput.swift */; };
 		BF4E406E2BFDE401004DA318 /* Snapshot_ios_sampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E406D2BFDE401004DA318 /* Snapshot_ios_sampleApp.swift */; };
 		BF4E40702BFDE401004DA318 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E406F2BFDE401004DA318 /* ContentView.swift */; };
 		BF4E40722BFDE402004DA318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4E40712BFDE402004DA318 /* Assets.xcassets */; };
@@ -14,6 +19,14 @@
 		BF4E40802BFDE402004DA318 /* Snapshot_ios_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E407F2BFDE402004DA318 /* Snapshot_ios_sampleTests.swift */; };
 		BF4E408A2BFDE402004DA318 /* Snapshot_ios_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E40892BFDE402004DA318 /* Snapshot_ios_sampleUITests.swift */; };
 		BF4E408C2BFDE402004DA318 /* Snapshot_ios_sampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E408B2BFDE402004DA318 /* Snapshot_ios_sampleUITestsLaunchTests.swift */; };
+		BF4E409E2BFE4BCB004DA318 /* CreateUserProfileViewSnapshotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E409D2BFE4BCB004DA318 /* CreateUserProfileViewSnapshotTest.swift */; };
+		BF4E40A12BFE4E40004DA318 /* CreateUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E40A02BFE4E40004DA318 /* CreateUserProfileView.swift */; };
+		BF4E40CA2BFF73E1004DA318 /* CustomFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E40C92BFF73E1004DA318 /* CustomFormField.swift */; };
+		BF4E40CC2BFF7731004DA318 /* CustomColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E40CB2BFF7731004DA318 /* CustomColorPicker.swift */; };
+		BF4E40CF2BFF89F1004DA318 /* InlineSnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = BF4E40CE2BFF89F1004DA318 /* InlineSnapshotTesting */; };
+		BF4E40D12BFF89F1004DA318 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = BF4E40D02BFF89F1004DA318 /* SnapshotTesting */; };
+		BF4E40D32BFF8C5B004DA318 /* CustomFormFieldSnapshotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E40D22BFF8C5B004DA318 /* CustomFormFieldSnapshotTest.swift */; };
+		BF4E40D52BFF8C7A004DA318 /* CustomColorPickerSnapshotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E40D42BFF8C7A004DA318 /* CustomColorPickerSnapshotTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF0997252C34B24E0058C25A /* DeviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListView.swift; sourceTree = "<group>"; };
+		BF0997272C34B9FC0058C25A /* DeviceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCard.swift; sourceTree = "<group>"; };
+		BF0997292C34BA1F0058C25A /* SimpleUserButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleUserButton.swift; sourceTree = "<group>"; };
+		BF09972C2C34BA620058C25A /* DeviceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceData.swift; sourceTree = "<group>"; };
+		BF09972E2C34BA890058C25A /* UserInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInput.swift; sourceTree = "<group>"; };
 		BF4E406A2BFDE401004DA318 /* Snapshot-ios-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snapshot-ios-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4E406D2BFDE401004DA318 /* Snapshot_ios_sampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapshot_ios_sampleApp.swift; sourceTree = "<group>"; };
 		BF4E406F2BFDE401004DA318 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +63,12 @@
 		BF4E40852BFDE402004DA318 /* Snapshot-ios-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snapshot-ios-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4E40892BFDE402004DA318 /* Snapshot_ios_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapshot_ios_sampleUITests.swift; sourceTree = "<group>"; };
 		BF4E408B2BFDE402004DA318 /* Snapshot_ios_sampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapshot_ios_sampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF4E409D2BFE4BCB004DA318 /* CreateUserProfileViewSnapshotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserProfileViewSnapshotTest.swift; sourceTree = "<group>"; };
+		BF4E40A02BFE4E40004DA318 /* CreateUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserProfileView.swift; sourceTree = "<group>"; };
+		BF4E40C92BFF73E1004DA318 /* CustomFormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFormField.swift; sourceTree = "<group>"; };
+		BF4E40CB2BFF7731004DA318 /* CustomColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorPicker.swift; sourceTree = "<group>"; };
+		BF4E40D22BFF8C5B004DA318 /* CustomFormFieldSnapshotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFormFieldSnapshotTest.swift; sourceTree = "<group>"; };
+		BF4E40D42BFF8C7A004DA318 /* CustomColorPickerSnapshotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorPickerSnapshotTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4E40CF2BFF89F1004DA318 /* InlineSnapshotTesting in Frameworks */,
+				BF4E40D12BFF89F1004DA318 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF09972B2C34BA530058C25A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BF09972C2C34BA620058C25A /* DeviceData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		BF4E40612BFDE401004DA318 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +129,9 @@
 		BF4E406C2BFDE401004DA318 /* Snapshot-ios-sample */ = {
 			isa = PBXGroup;
 			children = (
+				BF09972B2C34BA530058C25A /* Data */,
+				BF4E40C82BFF73AA004DA318 /* Screens */,
+				BF4E40C72BFF7365004DA318 /* Components */,
 				BF4E406D2BFDE401004DA318 /* Snapshot_ios_sampleApp.swift */,
 				BF4E406F2BFDE401004DA318 /* ContentView.swift */,
 				BF4E40712BFDE402004DA318 /* Assets.xcassets */,
@@ -115,6 +152,7 @@
 		BF4E407E2BFDE402004DA318 /* Snapshot-ios-sampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				BF4E409F2BFE4CA0004DA318 /* SnapshotTests */,
 				BF4E407F2BFDE402004DA318 /* Snapshot_ios_sampleTests.swift */,
 			);
 			path = "Snapshot-ios-sampleTests";
@@ -127,6 +165,37 @@
 				BF4E408B2BFDE402004DA318 /* Snapshot_ios_sampleUITestsLaunchTests.swift */,
 			);
 			path = "Snapshot-ios-sampleUITests";
+			sourceTree = "<group>";
+		};
+		BF4E409F2BFE4CA0004DA318 /* SnapshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF4E409D2BFE4BCB004DA318 /* CreateUserProfileViewSnapshotTest.swift */,
+				BF4E40D22BFF8C5B004DA318 /* CustomFormFieldSnapshotTest.swift */,
+				BF4E40D42BFF8C7A004DA318 /* CustomColorPickerSnapshotTest.swift */,
+			);
+			path = SnapshotTests;
+			sourceTree = "<group>";
+		};
+		BF4E40C72BFF7365004DA318 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BF4E40C92BFF73E1004DA318 /* CustomFormField.swift */,
+				BF4E40CB2BFF7731004DA318 /* CustomColorPicker.swift */,
+				BF0997272C34B9FC0058C25A /* DeviceCard.swift */,
+				BF0997292C34BA1F0058C25A /* SimpleUserButton.swift */,
+				BF09972E2C34BA890058C25A /* UserInput.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BF4E40C82BFF73AA004DA318 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BF4E40A02BFE4E40004DA318 /* CreateUserProfileView.swift */,
+				BF0997252C34B24E0058C25A /* DeviceListView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +232,10 @@
 				BF4E407D2BFDE402004DA318 /* PBXTargetDependency */,
 			);
 			name = "Snapshot-ios-sampleTests";
+			packageProductDependencies = (
+				BF4E40CE2BFF89F1004DA318 /* InlineSnapshotTesting */,
+				BF4E40D02BFF89F1004DA318 /* SnapshotTesting */,
+			);
 			productName = "Snapshot-ios-sampleTests";
 			productReference = BF4E407B2BFDE402004DA318 /* Snapshot-ios-sampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -217,6 +290,9 @@
 				Base,
 			);
 			mainGroup = BF4E40612BFDE401004DA318;
+			packageReferences = (
+				BF4E40CD2BFF89F1004DA318 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = BF4E406B2BFDE401004DA318 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +335,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF0997262C34B24E0058C25A /* DeviceListView.swift in Sources */,
+				BF09972F2C34BA890058C25A /* UserInput.swift in Sources */,
+				BF4E40CC2BFF7731004DA318 /* CustomColorPicker.swift in Sources */,
+				BF4E40CA2BFF73E1004DA318 /* CustomFormField.swift in Sources */,
+				BF4E40A12BFE4E40004DA318 /* CreateUserProfileView.swift in Sources */,
 				BF4E40702BFDE401004DA318 /* ContentView.swift in Sources */,
 				BF4E406E2BFDE401004DA318 /* Snapshot_ios_sampleApp.swift in Sources */,
+				BF09972A2C34BA1F0058C25A /* SimpleUserButton.swift in Sources */,
+				BF0997282C34B9FC0058C25A /* DeviceCard.swift in Sources */,
+				BF09972D2C34BA620058C25A /* DeviceData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +353,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF4E40802BFDE402004DA318 /* Snapshot_ios_sampleTests.swift in Sources */,
+				BF4E40D32BFF8C5B004DA318 /* CustomFormFieldSnapshotTest.swift in Sources */,
+				BF4E40D52BFF8C7A004DA318 /* CustomColorPickerSnapshotTest.swift in Sources */,
+				BF4E409E2BFE4BCB004DA318 /* CreateUserProfileViewSnapshotTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +704,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF4E40CD2BFF89F1004DA318 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.16.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF4E40CE2BFF89F1004DA318 /* InlineSnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF4E40CD2BFF89F1004DA318 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = InlineSnapshotTesting;
+		};
+		BF4E40D02BFF89F1004DA318 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF4E40CD2BFF89F1004DA318 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BF4E40622BFDE401004DA318 /* Project object */;
 }

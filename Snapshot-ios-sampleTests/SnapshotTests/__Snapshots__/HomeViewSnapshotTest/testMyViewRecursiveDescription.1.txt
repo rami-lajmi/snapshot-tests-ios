@@ -1,0 +1,4 @@
+<_TtGC7SwiftUI14_UIHostingViewV19Snapshot_ios_sample8HomeView_; frame = (0 0; 375 667); autoresize = W+H; gestureRecognizers = <NSArray>; backgroundColor = <UIDynamicSystemColor; name = systemBackgroundColor>; layer = <CALayer>>
+   | <_TtCOCV7SwiftUI11DisplayList11ViewUpdater8Platform13CGDrawingView; frame = (0 339.333; 97.3333 20.3333); anchorPoint = (0, 0); opaque = NO; autoresizesSubviews = NO; layer = <_TtCOCV7SwiftUI11DisplayList11ViewUpdater8PlatformP33_65A81BD07F0108B0485D2E15DE104A7514CGDrawingLayer>>
+   | <SwiftUI._UIGraphicsView; frame = (354.667 340.333; 18.6667 18); anchorPoint = (0, 0); autoresizesSubviews = NO; layer = <SwiftUI.ImageLayer>>
+   | <_TtCOCV7SwiftUI11DisplayList11ViewUpdater8Platform13CGDrawingView; frame = (155 361.667; 65.3333 20.3333); anchorPoint = (0, 0); opaque = NO; autoresizesSubviews = NO; layer = <_TtCOCV7SwiftUI11DisplayList11ViewUpdater8PlatformP33_65A81BD07F0108B0485D2E15DE104A7514CGDrawingLayer>>
